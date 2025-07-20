@@ -7,7 +7,9 @@ class Makemcp < Formula
   license "Apache-2.0"
   head "https://github.com/T4cceptor/MakeMCP.git", branch: "main"
 
-  depends_on "go" => :build unless which("go")
+  unless which("go")
+    depends_on "go" => :build
+  end
 
   def install
     system "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/makemcp.go"
@@ -18,6 +20,9 @@ class Makemcp < Formula
       This formula requires Go to build. If you have Go installed outside of Homebrew
       and encounter conflicts, consider using 'brew unlink go' before installation
       or ensure your existing Go installation is properly configured in your PATH.
+      
+      If you encounter conflicts with existing Go installations,
+      consider using 'brew unlink go' before installation.
     EOS
   end
 
