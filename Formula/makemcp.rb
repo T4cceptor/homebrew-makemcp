@@ -7,22 +7,22 @@ class Makemcp < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/T4cceptor/MakeMCP/releases/download/v0.2.1/makemcp-darwin-amd64.tar.gz"
+      url "https://github.com/T4cceptor/MakeMCP/releases/download/v0.2.1/makemcp-v0.2.1-darwin-amd64.tar.gz"
       sha256 "PLACEHOLDER_INTEL_SHA256"
     end
     on_arm do
-      url "https://github.com/T4cceptor/MakeMCP/releases/download/v0.2.1/makemcp-darwin-arm64.tar.gz"
+      url "https://github.com/T4cceptor/MakeMCP/releases/download/v0.2.1/makemcp-v0.2.1-darwin-arm64.tar.gz"
       sha256 "PLACEHOLDER_ARM64_SHA256"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/T4cceptor/MakeMCP/releases/download/v0.2.1/makemcp-linux-amd64.tar.gz"
+      url "https://github.com/T4cceptor/MakeMCP/releases/download/v0.2.1/makemcp-v0.2.1-linux-amd64.tar.gz"
       sha256 "PLACEHOLDER_LINUX_INTEL_SHA256"
     end
     on_arm do
-      url "https://github.com/T4cceptor/MakeMCP/releases/download/v0.2.1/makemcp-linux-arm64.tar.gz"
+      url "https://github.com/T4cceptor/MakeMCP/releases/download/v0.2.1/makemcp-v0.2.1-linux-arm64.tar.gz"
       sha256 "PLACEHOLDER_LINUX_ARM64_SHA256"
     end
   end
