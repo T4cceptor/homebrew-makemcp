@@ -1,4 +1,4 @@
-# T4cceptor Homebrew Tap
+# MakeMCP Homebrew Tap
 
 This is the official Homebrew tap for [MakeMCP](https://github.com/T4cceptor/MakeMCP).
 
