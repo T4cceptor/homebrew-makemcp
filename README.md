@@ -9,6 +9,9 @@ brew tap T4cceptor/makemcp
 brew install makemcp
 ```
 
+for latest use:
+`brew install --HEAD t4cceptor/makemcp/makemcp`
+
 ## Available Formulae
 
 - **makemcp** - Transform APIs into MCP servers for AI agents

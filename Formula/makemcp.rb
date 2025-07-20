@@ -1,5 +1,5 @@
-class MakemcpAT02 < Formula
-  desc "Transform APIs into MCP servers for AI agents (version 0.2.x)"
+class Makemcp < Formula
+  desc "Transform APIs into MCP servers for AI agents"
   homepage "https://github.com/T4cceptor/MakeMCP"
   version "0.2.1"
   url "https://github.com/T4cceptor/MakeMCP/archive/v0.2.1.tar.gz"
